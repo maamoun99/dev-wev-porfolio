@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel="stylesheet" href="../pages web/CSS/aboutme.css">
+    	<title>Nous contact </title>
+        
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="../image/logo IIT.png " class="logo">
+                <ul>
+                    <li><a href="../page_d'acceuil.html">Home</a></li>
+                    <li><a href="About me.html">About me</a></li>
+                    <li><a href="experenceassociative.html">Experience associative</a></li>
+                <li><a href="centerd'interret.html">center d'interrét</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="temoiniage.html">Témoiniage</a></li>
+               
+                </ul>
+            </nav>   
+            <section id="pageContent" class="text contact">
+                <main> 
+                    <h1>Contactez-nous</h1>
+                    <p>Remplissez le formulaire ci-dessous pour nous envoyer un message.</p>
+                    <form id="frmContact" action="merci.html">
+                        <div id = "leftCol">
+                            <div>
+                                <label for="fname">Prénom </label> 
+                                <input type="text" name="fname" id="fname"  tabindex="1" title="Entrez votre prénom" required />
+                            </div>
+                            <div>
+                                <label for="lname">Nom </label> 
+                                <input type="text" name="lname" id="lname" required tabindex="2" />
+                            </div>
+                            <div>
+                                <label for="email">Adresse email </label> 
+                                <input type="email" name="email" id="email" required tabindex="3"/>
+                            </div>
+                        </div>
+                        <div id = "rightCol">
+                            <div>
+                               <label for="message">Votre message</label>
+                               <textarea name="message" id="message" required tabindex="4"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </main>
+            </section><!--Ici se termine le #pageContent-->
+        
+        <footer id="mainFooter">
+            <p>&copy; Copyright 3.M -2022</p>
+        </footer><!--Ici se termine le #mainFooter-->
+    </body>
+</html>

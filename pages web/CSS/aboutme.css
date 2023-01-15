@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: #eff4fd;
+}
+.hero{
+position: relative;
+width: 100%;
+height: 100vh;
+background: #eff4fd;
+}
+nav{
+
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+#text{
+    border-style: groove;
+    border-color: #3A8DA6;
+    background-color:whitesmoke ;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ 
+
+
+/*  des projets */
+   #chak{
+    background-color: #f2f2f2;
+    padding: 20px;
+   }
+    .project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    }
+    .project img, .project video {
+    max-width: 100%;
+    margin-top: 20px;
+    }
+    .project h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .project p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .projects h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .project video {
+    width: 50%;
+    }
+   
+    
+    
+    
+    
+    
+/*  parcours académique */
+#education-timeline {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+#education-timeline h2 {
+    margin-bottom: 20px;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.timeline-item {
+    margin-bottom: 20px;
+}
+.timeline-item h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.timeline-item p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+#fss {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    }
+    #fss th, #fss td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    }
+    #fss th {
+    background-color: #f2f2f2;
+    }
+    #fss tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+    #fss tr:hover {
+    background-color: #ddd;
+    }
+    #fss th {
+    font-weight: bold;
+    }
+    
+    #iit {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    }
+    #iit th, #iit td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    }
+    #iit th {
+    background-color: #f2f2f2;
+    }
+    #iit tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+    #iit tr:hover {
+    background-color: #ddd;
+    }
+    #iit th {
+    font-weight: bold;
+    }
+/*  d'expérience en stage */
+#internship-experience {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+#internship-experience h2 {
+    margin-bottom: 20px;
+}
+.internship {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e6e6e6;
+}
+.internship h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.internship p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+/*  compétences */
+#skills {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+#skills h2 {
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.skill img {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+    display: block;
+    margin: auto;
+}
+.skill h3 {
+    margin-top: 10px;
+}
+.progress-bar {
+    width: 80%;
+    margin: 20px auto;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ddd;
+    position: relative;
+}
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #2ecc71;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.skill p {
+    margin-top: 10px;
+}
+/*experience associative */
+#association-experience{
+    padding: 20px;
+    background: #f2f2f2;
+    }
+    #associative-experience h2 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    }
+    .activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+    .activity img {
+    max-width: 100%;
+    margin-top: 20px;
+    }
+    .activity h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .activity p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .activity h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .activity .certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    }
+    .activity .certificate img {
+    width: 500px;
+    margin-right: 300px;
+    }
+    .activity .certificate h4 {
+    margin-bottom: 0;
+    }
+    
+   
+    
+/*hobbies*/
+#hobbies {
+    padding: 20px;
+    background-color: #f2f2f2;
+    }
+    #hobbies h2 {
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .hobby {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+    }
+    .hobby h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .hobby img {
+    max-width: 100%;
+    margin-top: 20px;
+    }
+   
+/*Quiz*/
+#quiz {
+    padding: 20px;
+    background-color: #f2f2f2;
+    }
+    #quiz h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    .question {
+    margin-bottom: 20px;
+    }
+    .question img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    }
+    .question label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    .question input[type="radio"] {
+    margin-right: 5px;
+    }
+    #quiz button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    }
+    #quiz button:hover {
+    background-color: #45a049;
+    }
+    #result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    }
+    #result.correct {
+    color: green;
+    }
+    #result.incorrect {
+    color: red;
+    }
+
+    /*footer*/
+    #mainFooter {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        }
+        #mainFooter p {
+        margin: 0;
+        }
+        /*temoinniage*/
+        #universityTestimonial {
+            background-color: #f2f2f2;
+            padding: 20px;
+            }
+            
+            #universityTestimonial h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            }
+            
+            .testimonial {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            }
+            
+        
+            
+            .testimonial p {
+            text-align: justify;
+            line-height: 1.5;
+            }
+            /*contact*/
+            #pageContent {
+                width: 80%;
+                margin: 0 auto;
+                background-color: #f2f2f2;
+                }
+                
+                .text {
+                font-size: 1.2em;
+                line-height: 1.5em;
+                text-align: justify;
+                }
+                
+                .contact {
+                padding: 20px;
+                }
+                
+                #frmContact {
+                display: flex;
+                flex-wrap: wrap;
+                }
+                
+                #leftCol, #rightCol {
+                width: 50%;
+                }
+                
+                #leftCol {
+                padding-right: 20px;
+                }
+                
+                #rightCol {
+                padding-left: 20px;
+                }
+                
+                #frmContact div {
+                margin-bottom: 20px;
+                }
+                
+                label {
+                font-weight: bold;
+                margin-bottom: 10px;
+                display: block;
+                }
+                
+                input[type="text"], input[type="email"], textarea {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                resize: vertical;
+                }
+                
+                button[type="submit"] {
+                width: 100%;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                }
+                
+                button[type="submit"]:hover {
+                background-color: #45a049;
+                }
+                
+                .error {
+                color: red;
+                }
+
+                /*Page d'acceuil*/
+                *{
+                    margin: 0;
+                    padding: 0;
+                    font-family: sans-serif;
+                
+                }
+                body{
+                    background-color: #eff4fd;
+                }
+                .hero{
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                background: #eff4fd;
+                }
+                nav{
+                
+                    display: flex;
+                    width: 84%;
+                    margin: auto;
+                    padding: 20px 0;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+                nav ul li{
+                    display: inline-block;
+                    list-style: none;
+                    margin: 10px 20px;
+                }
+                nav ul li a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                }
+                nav ul li a:hover{
+                    color: red;
+                }
+                .logo{
+                    width: 100px;
+                    height: 100px;
+                }
+                .detel{
+                    margin-left: 8%;
+                    margin-top: 15%;
+                }
+                .detel h1{
+                    font-size: 50px;
+                    color: #212121;
+                    margin-bottom: 20px;
+                }
+                span{
+                    color: orange;
+                }
+                .detel p{
+                    color: #555;
+                    line-height: 22px;
+                }
+                .detel a{
+                    background: #212121;
+                    padding: 10px 18px ;
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: white;
+                    display: inline-block;
+                    margin: 30px 0 ;
+                    border-radius: 5px;
+                }
+                .images{
+                    width: 45%;
+                    height: 80%;
+                    position: absolute;
+                    bottom: 0;
+                    right: 100px;
+                }
+                .images img{ 
+                    height: 100%;
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    transform: translateX(-50%);
+                    transition: bottom 1s, left 1s;
+                }
+                .images:hover .shape{
+                    bottom: 40px;
+                }
+                .images:hover .me{
+                    left: 45% ;
+                }
+                #ims{
+                    font-family: Arial, Helvetica, sans-serif;
+                    border: #023042;
+                    border-style: groove;
+                    margin-top: 155px;
+                    margin-left: 120px;
+                    width: 20%;
+                  }
